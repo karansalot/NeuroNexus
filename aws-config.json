@@ -1,0 +1,9 @@
+{
+  "Region": "us-west-2",
+  "CloudFront": {
+    "DistributionId": "YOUR_DISTRIBUTION_ID"
+  },
+  "S3": {
+    "Bucket": "b2verse-app"
+  }
+}
