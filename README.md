@@ -1,73 +1,75 @@
-# NeuroNexus - B2Twin Digital Twin System
+# 🧠 NeuroNexus – HackAZ 2025 Submission
 
-## 🎯 Overview
-NeuroNexus is an AI-powered digital twin system for Biosphere 2, developed during the B2Twin Hackathon (March 22-23, 2025). The system provides real-time monitoring and analysis of environmental data using Streamlit and the Gemma 2B AI model.
+**Unified AI Web App built for all 4 Hack AZ Challenges**  
+📍 Live at: [neuronexus.netlify.app](https://neuronexus.netlify.app)  
+📦 Repo: [github.com/karansalot/NeuroNexus](https://github.com/karansalot/NeuroNexus)
 
-## 🚀 Features
-- Real-time environmental data visualization
-- AI-powered trend analysis and insights
-- Multi-parameter correlation analysis
-- Interactive data exploration
-- Historical data analysis
-- Anomaly detection
+---
 
-## 🛠️ Tech Stack
-- Python 3.9+
-- Streamlit
-- Pandas
-- Plotly
-- NumPy
-- Ollama (Gemma 2B model)
+## 🚀 Overview
 
-## 📊 Data Format
-The application expects CSV files with the following formats:
+NeuroNexus is a smart, modular, AI-powered web platform that addresses **real-world challenges** in sustainability, education, and digital experiences through:
 
-### Temperature Data
-```csv
-timestamp,temperature,humidity
-2025-03-22 10:00:00,25.6,82.3
-```
+- 🌱 Environmental Data Simulation & Analysis
+- ☁️ AI Tools + Cloud Deployment
+- 🔥 Gen Z Engagement for Amazon Prime
+- 🎓 Student Experience Enhancer (UArizona-focused)
 
-### CO₂ Data
-```csv
-timestamp,co2_level,pressure
-2025-03-22 10:00:00,412.5,1013.2
-```
+Built with 💻 React + Vite + Tailwind + Chart.js + Ollama AI (local inference)  
+Supports CSV uploads, real-time visualizations, maps, agents, and smart assistants.
 
-### Radiation Data
-```csv
-timestamp,solar_radiation,par_level
-2025-03-22 10:00:00,856.3,385.3
-```
+---
 
-## 🏃‍♂️ Running the App
+## 🧩 Key Modules
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 🌱 **Biosphere AI** – Digital Twin Navigator  
+- CSV upload + interactive charts  
+- AI-generated insights using **Ollama (`gemma:2b`)**  
+- Ecosystem bots: SoilBot, ClimateBot, AtmosBot  
+- Map-based sensor simulation
 
-2. Start Ollama with Gemma 2B:
-   ```bash
-   ollama run gemma:2b
-   ```
+### ☁️ **AI Cloud Tools** – AWS-Ready AI Pipeline  
+- Upload and summarize CSV datasets  
+- “Deploy to AWS” guide modal  
+- Downloadable report generator  
+- Chatbot: Ask questions about your dataset  
+- *(For demo: Hardcoded CSV insights from 3 datasets)*
 
-3. Launch the Streamlit app:
-   ```bash
-   streamlit run app.py
-   ```
+### 🔥 **PrimePlay** – Gen Z x Amazon Prime  
+- Trendy show tiles + Vibe tag filters  
+- Earn PrimePoints + Unlock Badges  
+- Smart Kitchen Assistant: upload fridge/pantry → generate meals + Amazon Fresh cart  
+- Creator Challenge Portal (#PrimeIRL)
 
-## 📁 Project Structure
-```
-neuronexus/
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
-├── README.md          # Documentation
-└── data/              # Sample data directory
-```
+### 🎓 **Campus Connect** – UArizona Student Portal  
+Inspired by D2L but smarter.
 
-## 🤝 Contributing
-This project was created during the B2Twin Hackathon 2025. Feel free to fork and extend!
+- D2L-style layout with AI upgrades  
+- 📚 Study Assistant: weekly plan generator  
+- 🧠 Zoom Meeting Transcriber (.mp4) *(mock)*  
+- 🗣️ Voice assistant + language selector  
+- 👥 Mentor matcher  
+- 🅿️ Parking lot tracker + campus pantry queue optimizer  
+- 🚌 Live bus viewer (SunTran + CatTran + Campus Loops)
 
-## 📜 License
-MIT License
+---
+
+## 💡 Technologies
+
+| Tool        | Purpose                  |
+|-------------|---------------------------|
+| React + Vite | Frontend UI               |
+| TailwindCSS | Responsive styling        |
+| Chart.js    | Data visualizations       |
+| Ollama + Gemma | Local LLM inference   |
+| Axios       | API communication         |
+| Netlify     | Deployment (Frontend)     |
+
+---
+
+## 🛠️ Setup
+
+1. Clone the repo  
+```bash
+git clone https://github.com/karansalot/NeuroNexus.git
+cd NeuroNexus
