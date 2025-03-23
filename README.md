@@ -1,70 +1,91 @@
-# 🧠 NeuroNexus – HackAZ 2025 Submission
+# 🧠 NeuroNexus – UA Student Experience Enhancer
 
-**Unified AI Web App built for all 4 Hack AZ Challenges**  
-📍 Live at: [neuronexus.netlify.app](https://neuronexus.netlify.app)  
-📦 Repo: [github.com/karansalot/NeuroNexus](https://github.com/karansalot/NeuroNexus)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_BADGE_ID/deploy-status)](https://neuronexus.netlify.app)
 
----
-
-## 🚀 Overview
-
-NeuroNexus is a smart, modular, AI-powered web platform that addresses **real-world challenges** in sustainability, education, and digital experiences through:
-
-- 🌱 Environmental Data Simulation & Analysis
-- ☁️ AI Tools + Cloud Deployment
-- 🔥 Gen Z Engagement for Amazon Prime
-- 🎓 Student Experience Enhancer (UArizona-focused)
-
-Built with 💻 React + Vite + Tailwind + Chart.js + Ollama AI (local inference)  
-Supports CSV uploads, real-time visualizations, maps, agents, and smart assistants.
+> A smart, centralized student platform to simplify life at the University of Arizona 🎓
 
 ---
 
-## 🧩 Key Modules
+## 💡 Inspiration
+At the University of Arizona, student life is fragmented — different apps for courses, separate portals for parking, confusing pantry lines, and no smart planner in sight. As students ourselves, we envisioned a **centralized, AI-powered hub** that could unify and simplify our campus experience.
 
-### 🌱 **Biosphere AI** – Digital Twin Navigator  
-- CSV upload + interactive charts  
-- AI-generated insights using **Ollama (`gemma:2b`)**  
-- Ecosystem bots: SoilBot, ClimateBot, AtmosBot  
-- Map-based sensor simulation
-
-### ☁️ **AI Cloud Tools** – AWS-Ready AI Pipeline  
-- Upload and summarize CSV datasets  
-- “Deploy to AWS” guide modal  
-- Downloadable report generator  
-- Chatbot: Ask questions about your dataset  
-- *(For demo: Hardcoded CSV insights from 3 datasets)*
-
-### 🔥 **PrimePlay** – Gen Z x Amazon Prime  
-- Trendy show tiles + Vibe tag filters  
-- Earn PrimePoints + Unlock Badges  
-- Smart Kitchen Assistant: upload fridge/pantry → generate meals + Amazon Fresh cart  
-- Creator Challenge Portal (#PrimeIRL)
-
-### 🎓 **Campus Connect** – UArizona Student Portal  
-Inspired by D2L but smarter.
-
-- D2L-style layout with AI upgrades  
-- 📚 Study Assistant: weekly plan generator  
-- 🧠 Zoom Meeting Transcriber (.mp4) *(mock)*  
-- 🗣️ Voice assistant + language selector  
-- 👥 Mentor matcher  
-- 🅿️ Parking lot tracker + campus pantry queue optimizer  
-- 🚌 Live bus viewer (SunTran + CatTran + Campus Loops)
+That vision became **NeuroNexus**.
 
 ---
 
-## 💡 Technologies
+## 🚀 What It Does
+NeuroNexus is a smart campus platform designed to make life easier for UA students. It includes:
 
-| Tool        | Purpose                  |
-|-------------|---------------------------|
-| React + Vite | Frontend UI               |
-| TailwindCSS | Responsive styling        |
-| Chart.js    | Data visualizations       |
-| Ollama + Gemma | Local LLM inference   |
-| Axios       | API communication         |
-| Netlify     | Deployment (Frontend)     |
+- 🧑‍🏫 D2L-inspired dashboard (course cards + announcements)
+- 📚 Smart Study Assistant (AI-generated weekly plans)
+- 🌍 Multilingual UI support (English & Spanish)
+- 🅿️ UA Parking Lot availability simulator
+- 🚌 Campus bus viewer (CatTran + SunTran routes)
+- 🥫 Pantry queue optimizer (smart wait-time system)
+- 🗺️ Interactive cultural club map with filters + join animations 🎉
+- 📅 Weekly planner + assignment checklist
+- 🤝 Mentor matching based on student interests
 
 ---
 
+## 🔧 How We Built It
 
+- **Frontend**: React + Vite
+- **UI**: TailwindCSS, Chart.js
+- **Localization**: `react-i18next` for dynamic language switching
+- **AI Logic**: Local inference via Ollama (`gemma:2b`)
+- **Hosting**: [Netlify](https://neuronexus.netlify.app)
+- **Structure**: Modular component-based layout using React Router
+
+---
+
+## 🧱 Challenges We Ran Into
+
+- Integrating multiple smart features without breaking UX
+- Live simulation of real-time data (parking, pantry, buses)
+- Multilingual logic affecting UI components
+- Designing clean but feature-rich pages on a deadline
+
+---
+
+## 🏆 Accomplishments That We're Proud Of
+
+- Deployed a fully functional, modern web app in <48 hours
+- Reimagined D2L + campus logistics in one dashboard
+- Worked as a focused team to design with real student needs in mind
+
+---
+
+## 📚 What We Learned
+
+- How to build AI-powered features using local models
+- Realistic simulations with frontend logic and dummy data
+- How to design apps for accessibility and engagement
+- The power of rapid iteration with modular components
+
+---
+
+## 🔮 What’s Next for NeuroNexus
+
+- 🎙️ Real voice assistant (Web Speech API)
+- 🔍 Integration with real UA systems (D2L API, CatTran tracker)
+- 📲 Mobile app with push reminders
+- 💬 Smart tutor chatbot for academic support
+- 🧪 User testing and scaling across campuses
+
+---
+
+## 🌐 Live Demo
+
+👉 [https://neuronexus.netlify.app](https://neuronexus.netlify.app)
+
+---
+
+## 📦 Repo
+
+GitHub: [github.com/karansalot/NeuroNexus](https://github.com/karansalot/NeuroNexus)
+
+---
+
+## 🐻⬇️ Bear Down!
+Built for Wildcats. By Wildcats.
