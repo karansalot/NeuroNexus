@@ -67,9 +67,4 @@ Inspired by D2L but smarter.
 
 ---
 
-## 🛠️ Setup
 
-1. Clone the repo  
-```bash
-git clone https://github.com/karansalot/NeuroNexus.git
-cd NeuroNexus
